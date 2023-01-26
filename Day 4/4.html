@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #text{
+            padding-top: 300px;  
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #result{
+            color: aliceblue;
+            font-size: 200%;
+        }
+
+        .button{
+            border: 2px solid black;
+            background-color: black;
+            color: black;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .warning {
+          border-color: #ff9800;
+          color: orange;
+        }
+
+        .warning:hover {
+          background: #ff9800;
+          color: white;
+        }
+
+        .success {
+          border-color: #04AA6D;
+          color: green;
+        }
+
+        .success:hover {
+          background-color: #04AA6D;
+          color: white;
+        }
+        
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="text">
+        <p>
+            <h1>Javascript Counter</h1>
+        </p>
+        <br>
+        <p>
+            <span id="result">0</span>
+        </p>
+        <br>
+        <button type="submit" class="button warning" value="button">Decrease Counter</button>
+        <button type="submit" class="button success" value="button">Increase Counter</button>
+    </div>
+    <script src="4.js"></script>
+</body>
+</html>

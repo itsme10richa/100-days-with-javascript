@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/signup.php" method="post" name="myForm" id="form" >
+
+        <div id="project">
+            <div>
+                <h1>Create Account</h1>
+                <p>Username:</p>
+                <div class="inputbox">
+                    <input type="text" id="Username" name="Username" placeholder="Steve"><br>
+
+                    <i class="fa fa-exclamation-circle failure-icon"></i>
+                    <i class="fa fa-check-circle success-icon"></i>
+    
+                </div>
+                
+                <div class="error"></div>
+            </div>
+          
+            <div>  
+                <p>Email:</p>
+                <div class="inputbox">
+                    <input type="text" id="Email" name="Email" placeholder="xyz@abc.com"><br>
+
+                    <i class="fa fa-exclamation-circle failure-icon"></i>
+                    <i class="fa fa-check-circle success-icon"></i>
+
+                </div>
+                
+    
+                <div class="error"></div>
+            </div>
+
+            <div>
+                <p>Password:</p>
+                <div class="inputbox">
+                    <input type="password" id="Password" name="Password" placeholder="Password"><br>
+
+                    <i class="fa fa-exclamation-circle failure-icon"></i>
+                    <i class="fa fa-check-circle success-icon"></i>
+                </div>
+    
+                <div class="error"></div>
+            </div>
+
+            <div>
+                <p>Password Check:</p>
+                <div class="inputbox">
+                    <input type="password" id="Pcheck" name="Pcheck" placeholder="Confirm your password"><br>
+    
+                    <i class="fa fa-exclamation-circle failure-icon"></i>
+                    <i class="fa fa-check-circle success-icon"></i>
+    
+                </div>
+                
+                <div class="error"></div>
+            </div>   
+    
+           <button type="submit" class="button" value="button">Submit</button>
+        </div>
+
+    </form>
+    
+    <script src="3.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* display: flex; */
+    box-sizing: border-box;
+   
+}
+
+body{
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#project{
+    margin: auto;
+    padding-top: 300px;  
+    padding: 100px;
+    width: 500px;
+    height: 600px;
+    background-color: aliceblue;
+    
+}
+
+#project *{
+    padding: 4px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputbox i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0%;
+    padding: 0px !important; 
+}
+
+.inputbox input{
+    width: 100%;
+}
+
+
+  .failure-icon,
+  .error {
+    color: red;
+  }
+  
+  .success-icon {
+    color: green;
+  }
+  
+  .error {
+    font-size: 14.5px;
+  }
+
+.success-icon,
+.failure-icon {
+  opacity: 0;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
+
+.button{
+    background-color: aqua;
+    width: 175px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

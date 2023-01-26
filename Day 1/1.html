@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div>
+        <h1>Tip Calculator</h1>
+    </div>
+
+    <div class="paisa">
+        <p>Please enter the amount of your bill.</p>
+        <form action="#">
+            <label for="paisa">Rs:</label>
+            <input type="text" id="paisa" name="paisa"><br>
+        </form>
+    </div>
+
+    <div class="dropdown">
+        <p>How was your service?</p>
+        <label for="dropdown"></label>
+
+        <select name="dropdown" id="dropdown">
+            <option value="0.35">35% - Amazing</option>
+            <option value="0.25">25% - Good</option>
+            <option value="0.20">20% - Satisfactory</option>
+            <option value="0.15">15% - Bad</option>
+            <option value="0.10">10% - Disgusting</option>
+        </select>
+    </div>
+
+    <div class="bill">
+        <p>How many people are sharing the bill?</p>
+        <form action="#">
+            <input type="text" id="bill" name="bill"><br>
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <button type="button"  onclick="calculate()">Submit</button>
+    </div>
+
+    <p>The Result is : <br>
+        <span id = "result"></span>
+    </p>
+
+    <script src="1.js"></script>
+
+</body>
+</html>
